@@ -15,9 +15,14 @@ body {
 }
 
 .name {
+    display: flex;
     margin-left: 0px;
     font-size: 25px;
     float: left;
+}
+
+.name img{
+    margin-top: 20px;
 }
 
 .name div h1 {
@@ -78,6 +83,10 @@ body {
     margin-right: 5px;
 }
 
+.about div h2 {
+    font-size: 46px;
+}
+
 .title h2 {
     margin: 10px;
     float: left;
@@ -99,6 +108,7 @@ body {
 }
 
 .work div h2 {
+    font-size: 50px;
     margin: 14.5px;
     float: left;
 }

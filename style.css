@@ -3,6 +3,7 @@
     --background: #1E1E1E;
     --theme: #92CCCD;
     --navbar: #31343D;
+    --contentTheme: #445877;
 }
 
 html {
@@ -62,4 +63,114 @@ body {
 
 .navbar div ul li a:hover {
     background-color: #111;
+}
+
+.bottom {
+    background-color: #EDEEF6;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    color: var(--contentTheme);
+
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.title h2 {
+    margin: 10px;
+    float: left;
+}
+
+.info p{
+    padding-left: 50px;
+    border-left: 2px solid var(--contentTheme);
+}
+
+.work {
+    margin-top: 10px;
+    margin-right: 5px;
+
+    display: flex;
+    align-items: center;
+
+    color: var(--contentTheme)
+}
+
+.work div h2 {
+    margin: 14.5px;
+    float: left;
+}
+
+.content {
+    padding-left: 50px;
+    border-left: 2px solid var(--contentTheme);
+}
+
+.intialapp {
+    background-color: var(--theme);
+    opacity: 0.7;
+    margin: 0;
+    height: auto;
+    width: 1035px;
+}
+
+.intialapp:hover {
+    opacity: 1;
+}
+
+.intialapp div {
+    width: 100px;
+    padding: 5px;
+    background-color: var(--theme);
+    position: relative;
+    top: 200px;
+}
+
+.intialapp img{
+    border: 5px solid var(--theme);
+    z-index: -1;
+}
+
+.initialapp div{
+    opacity: 1;
+}
+
+.notfirst {
+    display: flex;
+}
+
+.notfirst #one {
+    opacity: 0.7;
+}
+
+.notfirst #one:hover {
+    opacity: 1;
+}
+
+.notfirst #two {
+    opacity: 0.7;
+}
+
+.notfirst #two:hover {
+    opacity: 1;
+}
+
+.notfirst div {
+    margin: 10px;
+}
+
+.notfirst div img{
+    border: 5px solid var(--theme);
+
+}
+
+.otherapp div {
+    width: 100px;
+    padding: 5px;
+    background-color: var(--theme);
+    position: relative;
+    top: 200px;
+    right: 5px;
 }

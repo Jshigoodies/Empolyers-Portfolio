@@ -184,3 +184,32 @@ body {
     top: 200px;
     right: 5px;
 }
+
+.contact div {
+    display: flex;
+    align-items: center;
+}
+
+.contact div div ul li {
+    margin: 20px;
+    float: right;
+}
+
+.contact div div h2 {
+    color: var(--contentTheme);
+    font-size: 37px;
+}
+
+.contact div div ul li a{
+    color: var(--contentTheme);
+    text-decoration: underline;
+    text-decoration-thickness: 7px;
+}
+
+#contacttitle {
+    margin: 8px;
+}
+
+#contactlist {
+    border-left: 2px solid var(--contentTheme);;
+}
